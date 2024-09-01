@@ -8,7 +8,6 @@ import {
   TouchableOpacity,
 } from "react-native";
 
-
 import { icons } from "../constants";
 
 const zoomIn = {
@@ -16,13 +15,13 @@ const zoomIn = {
     scale: 0.9,
   },
   1: {
-    scale: 1.1,
+    scale: 1,
   },
 };
 
 const zoomOut = {
   0: {
-    scale: 1.1,
+    scale: 1,
   },
   1: {
     scale: 0.9,
